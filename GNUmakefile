@@ -15,7 +15,7 @@ clean:
 %.gz: %.scd suffix.txt
 	cat $^ | scdoc | gzip > $@
 
-install:
+install: all
 	install -d -Minstall.log $(MANDIR)/man5
 	install -Minstall.log text-gemini.5.gz $(MANDIR)/man5
 	install -d -Minstall.log $(MANDIR)/man7
