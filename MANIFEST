@@ -1,0 +1,14 @@
+name anachronauts-guide
+version 2021.2.14-0
+origin anachronauts/guide
+comment The Anachronaut's Guide
+desc = <<EOD
+	Site documentation for anachronauts.
+
+	Provides man pages which are primarily useful for the anachronauts.club
+	environment, with tutorials and introductions to the local
+	configuration.
+EOD
+www https://anachronauts.club
+maintainer sage@anachronauts.club
+prefix /usr/local
