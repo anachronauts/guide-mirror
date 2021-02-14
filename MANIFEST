@@ -11,4 +11,3 @@ desc = <<EOD
 EOD
 www https://anachronauts.club
 maintainer sage@anachronauts.club
-prefix /usr/local

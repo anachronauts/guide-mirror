@@ -1,4 +1,4 @@
-anachronauts(7) "The Anachronaut's Guide" "The Anachronauts's Guide"
+anachronauts(7) "The Anachronaut's Guide" "The Anachronaut's Guide"
 
 # NAME
 
@@ -114,10 +114,4 @@ idling.
 
 If we decide to keep crawl installed, we plan to implement "hearsing", where
 ghost files are shared between user accounts.
-
-
-# AUTHORS
-
-Guide written by Sage <sage@anachronauts.club>. If you've found an error or
-would like to contribute to the guide, contact them by server mail.
 

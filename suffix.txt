@@ -1,0 +1,5 @@
+
+# AUTHORS
+
+The Guide is maintained by Sage <sage@anachronauts.club>. If you've found an
+error or would like to contribute to the guide, contact them by server mail.
