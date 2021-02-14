@@ -1,4 +1,4 @@
-.PHONY: all clean install package
+.PHONY: all clean install package package-install
 
 PREFIX := /usr/local
 DATADIR := $(PREFIX)/share
@@ -30,3 +30,4 @@ package:
 	awk '/type=file/ { print substr($$1, index($$1, "$(PREFIX)")) }' install.log > $(STAGE)/plist
 	mkdir -p $(PKGDIR)
 	pkg create -o "$(PKGDIR)" -r "$(STAGE)" -M "$(STAGE)/+MANIFEST" -p "$(STAGE)/plist"
+	pkg repo "$(PKGDIR)"
