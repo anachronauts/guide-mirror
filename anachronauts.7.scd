@@ -58,6 +58,9 @@ like.
 Additionally, the default *fish*(1) configuration displays some cool frogs when
 you log in if you have new mail. If you change your shell, this will go away.
 
+We also have mailing lists associated with some UNIX groups. Use *mygroups*(1)
+to see a list of available groups/lists, and to join or leave them.
+
 
 ## GEMINI
 
